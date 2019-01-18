@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<style>
+			canvas{
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<canvas width="500" height="500" onclick="drawOnClick(event);"></canvas>
+	<br/>
+	<button onclick="start_move(0);">Вверх</button>
+	<button onclick="start_move(1);">Вниз</button>
+	<button onclick="start_move(2);">Влево</button>
+	<button onclick="start_move(3);">Вправо</button>
+	<button onclick="start_move(4);">Рандомно</button>
+	<button onclick="start_move(5);">Хаос</button>
+	<button onclick="cancel_move();">Пауза</button>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.js"></script>
+	<script src="app.js" type="text/javascript"></script>
+</html>
